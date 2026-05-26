@@ -53,4 +53,4 @@ python -m technical_ic_refactored.turnover
    - 看涨跌停交易失败：改 `decile_limit_failure.py`
    - 看换手率：改 `turnover.py`
 3. 不要在基础函数模块里直接跑主程序。现在大多数 `run_xxx()` 都只会在你直接运行该模块时执行。
-4. 老师临时加任务时，优先新建一个模块，不要继续往一个文件末尾追加。
+4. 临时加任务时，优先新建一个模块，不要继续往一个文件末尾追加。
